@@ -15,8 +15,8 @@ int main(void)
 	while (c1 <= 'z' && c2 <= 'Z')
 	{
 		putchar(c1);
-		putchar(c2);
 		c1++;
+		putchar(c2);
 		c2++;
 	}
 	putchar('\n');
