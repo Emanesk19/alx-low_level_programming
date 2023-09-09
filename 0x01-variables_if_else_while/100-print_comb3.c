@@ -7,14 +7,25 @@
  */
 int main(void)
 {
-	int i;
+    int i, j;
 
-	for (i = 1 ; i < 100 ; i++)
-	{
-		putchar((i % 100) + '0');
-		putchar(',');
-		putchar(' ');
-	}
-	return (0);
+    i = 0;
+    while (i < 10)
+    {
+        j = i + 1;
+        while (j < 10)
+        {
+            putchar(i + '0');
+            putchar(j + '0');
+            if (i < 8 || j < 9)
+            {
+                putchar(',');
+                putchar(' ');
+            }
+            j++;
+        }
+        i++;
+    }
+    putchar('\n');
+    return (0);
 }
-
