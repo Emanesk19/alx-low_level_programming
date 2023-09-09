@@ -9,6 +9,8 @@ int main (void)
 {
 	int i, j, k;
 
+	i = 0;
+
 	while (i < 10)
 	{
 		j = i + 1;
