@@ -8,9 +8,9 @@
  */
 
 void puts2(char *str)
-{       
-        int len = 0, i, t = 0;
-        char *y = str;
+{
+	int len = 0, i, t = 0;	
+	char *y = str;
 
 	while (*y != '\0')
 	{
